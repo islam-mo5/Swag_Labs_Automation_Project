@@ -1,0 +1,11 @@
+[INFO] 02-08-2025 14:04:52 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:35)] - Browser driver is opened
+[INFO] 02-08-2025 14:04:53 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:37)] - Page directed to Base URL
+[INFO] 02-08-2025 14:04:53 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepTwoTC started
+[INFO] 02-08-2025 14:04:56 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 1
+[INFO] 02-08-2025 14:04:56 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 2
+[INFO] 02-08-2025 14:04:56 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 3
+[INFO] 02-08-2025 14:04:56 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 4
+[INFO] 02-08-2025 14:04:57 [main] [Tests.TC05_OverviewTest.checkoutStepTwoTC(TC05_OverviewTest.java:52)] - fTest - ٢٠٢٥-٠٨-٠٢-٠٢-٠٤-٥٠ م lTest - ٢٠٢٥-٠٨-٠٢-٠٢-٠٤-٥٠ م  58283
+[INFO] 02-08-2025 14:04:57 [main] [Pages.P05_OverviewPage.calculateTotalPrice(P05_OverviewPage.java:35)] - calculating SubTotal = 105.96 and Tax = 8.48 = 114.44
+[INFO] 02-08-2025 14:04:58 [main] [Pages.P05_OverviewPage.getTotal(P05_OverviewPage.java:30)] - Actual Total Price = 114.44
+[INFO] 02-08-2025 14:04:58 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case checkoutStepTwoTC passed

@@ -1,0 +1,10 @@
+[INFO] 30-07-2025 20:36:26 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:31)] - Browser driver is opened
+[INFO] 30-07-2025 20:36:27 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:33)] - Page directed to Base URL
+[INFO] 30-07-2025 20:36:27 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case comparePricesTC started
+[INFO] 30-07-2025 20:36:31 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:74)] - random Number = 3
+[INFO] 30-07-2025 20:36:32 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:74)] - random Number = 4
+[INFO] 30-07-2025 20:36:32 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:74)] - random Number = 5
+[INFO] 30-07-2025 20:36:33 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:74)] - random Number = 6
+[INFO] 30-07-2025 20:36:34 [main] [Pages.P02_HomePage.getTotalPriceOfSelectedProducts(P02_HomePage.java:107)] - Total price = 89.96
+[INFO] 30-07-2025 20:36:37 [main] [Pages.P03_CartPage.getTotalPriceInCart(P03_CartPage.java:34)] - Total price = 179.92001
+[INFO] 30-07-2025 20:36:37 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - Test Case comparePricesTC failed

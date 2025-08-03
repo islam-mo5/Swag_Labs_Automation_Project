@@ -1,0 +1,9 @@
+[INFO] 31-07-2025 12:52:35 [main] [Tests.TC06_CompleteTest.setup(TC06_CompleteTest.java:35)] - Browser driver is opened
+[INFO] 31-07-2025 12:52:36 [main] [Tests.TC06_CompleteTest.setup(TC06_CompleteTest.java:37)] - Page directed to Base URL
+[INFO] 31-07-2025 12:52:36 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepTwoTC started
+[INFO] 31-07-2025 12:52:39 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 2
+[INFO] 31-07-2025 12:52:39 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 3
+[INFO] 31-07-2025 12:52:39 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 4
+[INFO] 31-07-2025 12:52:39 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 5
+[INFO] 31-07-2025 12:52:41 [main] [Tests.TC06_CompleteTest.checkoutStepTwoTC(TC06_CompleteTest.java:53)] - fTest - ٢٠٢٥-٠٧-٣١-١٢-٥٢-٣١ م lTest - ٢٠٢٥-٠٧-٣١-١٢-٥٢-٣١ م  01332
+[INFO] 31-07-2025 12:52:41 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case checkoutStepTwoTC passed

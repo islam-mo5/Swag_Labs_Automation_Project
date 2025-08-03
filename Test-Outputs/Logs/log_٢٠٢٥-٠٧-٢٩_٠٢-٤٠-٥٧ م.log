@@ -1,0 +1,5 @@
+[INFO] 29-07-2025 14:40:57 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:28)] - Browser driver is opened
+[INFO] 29-07-2025 14:40:58 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:30)] - Page directed to Base URL
+[INFO] 29-07-2025 14:41:02 [main] [Pages.P02_HomePage.addProductsToCart(P02_HomePage.java:28)] - Number of all products are: 6
+[INFO] 29-07-2025 14:41:03 [main] [Pages.P02_HomePage.getNumberOfCurrentCartIcon(P02_HomePage.java:39)] - Number of products on cart are: 6
+[INFO] 29-07-2025 14:41:03 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:50)] - Number of selected products are: 6

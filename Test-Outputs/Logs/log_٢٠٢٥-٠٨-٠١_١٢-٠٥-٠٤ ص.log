@@ -1,0 +1,4 @@
+[INFO] 01-08-2025 00:05:04 [main] [Tests.TC01_LoginPage.setup(TC01_LoginPage.java:30)] - Browser driver is opened
+[INFO] 01-08-2025 00:05:06 [main] [Tests.TC01_LoginPage.setup(TC01_LoginPage.java:32)] - Page directed to Base URL
+[INFO] 01-08-2025 00:05:06 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case validLoginTC started
+[INFO] 01-08-2025 00:05:16 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case validLoginTC passed

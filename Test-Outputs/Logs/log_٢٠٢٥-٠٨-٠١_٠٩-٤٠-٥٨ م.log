@@ -1,0 +1,26 @@
+[INFO] 01-08-2025 21:40:58 [main] [Tests.TC02_HomePageTest.login(TC02_HomePageTest.java:31)] - Browser driver is opened
+[INFO] 01-08-2025 21:40:58 [main] [Tests.TC02_HomePageTest.login(TC02_HomePageTest.java:33)] - Page directed to Base URL
+[INFO] 01-08-2025 21:41:03 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:46)] - Browser driver is opened
+[INFO] 01-08-2025 21:41:04 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:48)] - Page directed to Base URL
+[INFO] 01-08-2025 21:41:08 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:51)] - Page directed to Home URL
+[INFO] 01-08-2025 21:41:09 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case addRandomProductsToCartTC started
+[INFO] 01-08-2025 21:41:09 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 1
+[INFO] 01-08-2025 21:41:09 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 2
+[INFO] 01-08-2025 21:41:09 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 5
+[INFO] 01-08-2025 21:41:09 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 6
+[INFO] 01-08-2025 21:41:09 [main] [Pages.P02_HomePage.getNumberOfCurrentCartIcon(P02_HomePage.java:47)] - Number of products on cart are: 4
+[INFO] 01-08-2025 21:41:09 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:58)] - Number of selected products are: 4
+[INFO] 01-08-2025 21:41:09 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case addRandomProductsToCartTC passed
+[INFO] 01-08-2025 21:41:12 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:46)] - Browser driver is opened
+[INFO] 01-08-2025 21:41:13 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:48)] - Page directed to Base URL
+[INFO] 01-08-2025 21:41:15 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:51)] - Page directed to Home URL
+[INFO] 01-08-2025 21:41:15 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case clickOnCartTC started
+[INFO] 01-08-2025 21:41:16 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case clickOnCartTC passed
+[INFO] 01-08-2025 21:41:18 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:46)] - Browser driver is opened
+[INFO] 01-08-2025 21:41:19 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:48)] - Page directed to Base URL
+[INFO] 01-08-2025 21:41:25 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:51)] - Page directed to Home URL
+[INFO] 01-08-2025 21:41:26 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case verifyNumberOfSelectedProductsTC started
+[INFO] 01-08-2025 21:41:26 [main] [Pages.P02_HomePage.addProductsToCart(P02_HomePage.java:36)] - Number of all products are: 6
+[INFO] 01-08-2025 21:41:26 [main] [Pages.P02_HomePage.getNumberOfCurrentCartIcon(P02_HomePage.java:47)] - Number of products on cart are: 6
+[INFO] 01-08-2025 21:41:26 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:58)] - Number of selected products are: 6
+[INFO] 01-08-2025 21:41:26 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case verifyNumberOfSelectedProductsTC passed

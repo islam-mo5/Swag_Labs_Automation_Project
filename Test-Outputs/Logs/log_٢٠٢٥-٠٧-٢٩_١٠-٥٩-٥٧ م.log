@@ -1,0 +1,5 @@
+[INFO] 29-07-2025 22:59:57 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - Test Case setup failed
+[ERROR] 29-07-2025 22:59:57 [main] [Utilities.Utility.takeScreenshot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null
+[ERROR] 29-07-2025 22:59:57 [main] [Utilities.Utility.takeFullScreeshot(Utility.java:142)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[INFO] 29-07-2025 22:59:57 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case verifyNumberOfSelectedProductsTC started
+[INFO] 29-07-2025 22:59:57 [main] [Listeners.ITestResultListenerClass.onTestSkipped(ITestResultListenerClass.java:19)] - Test Case verifyNumberOfSelectedProductsTC skipped

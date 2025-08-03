@@ -1,0 +1,7 @@
+[INFO] 29-07-2025 22:37:34 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:32)] - Browser driver is opened
+[INFO] 29-07-2025 22:37:35 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:34)] - Page directed to Base URL
+[INFO] 29-07-2025 22:37:35 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case verifyNumberOfSelectedProductsTC started
+[INFO] 29-07-2025 22:37:38 [main] [Pages.P02_HomePage.addProductsToCart(P02_HomePage.java:28)] - Number of all products are: 6
+[INFO] 29-07-2025 22:37:39 [main] [Pages.P02_HomePage.getNumberOfCurrentCartIcon(P02_HomePage.java:39)] - Number of products on cart are: 6
+[INFO] 29-07-2025 22:37:39 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:50)] - Number of selected products are: 6
+[INFO] 29-07-2025 22:37:39 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - Test Case verifyNumberOfSelectedProductsTC failed
