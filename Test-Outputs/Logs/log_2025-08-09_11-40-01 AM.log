@@ -1,0 +1,3 @@
+[INFO] 09-08-2025 11:40:01 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:34)] - null
+[INFO] 09-08-2025 11:40:03 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:36)] - Page directed to Base URL
+[INFO] 09-08-2025 11:40:03 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepOneTC started

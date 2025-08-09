@@ -1,0 +1,69 @@
+[INFO] 09-08-2025 12:14:59 [main] [Tests.TC01_LoginPage.setup(TC01_LoginPage.java:30)] - null
+[INFO] 09-08-2025 12:15:02 [main] [Tests.TC01_LoginPage.setup(TC01_LoginPage.java:32)] - Browser driver is opened
+[INFO] 09-08-2025 12:15:04 [main] [Tests.TC01_LoginPage.setup(TC01_LoginPage.java:34)] - Page directed to Base URL
+[INFO] 09-08-2025 12:15:04 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case validLoginTC started
+[INFO] 09-08-2025 12:15:07 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case validLoginTC passed
+[INFO] 09-08-2025 12:15:07 [main] [Tests.TC02_HomePageTest.login(TC02_HomePageTest.java:31)] - null
+[INFO] 09-08-2025 12:15:08 [main] [Tests.TC02_HomePageTest.login(TC02_HomePageTest.java:33)] - Browser driver is opened
+[INFO] 09-08-2025 12:15:08 [main] [Tests.TC02_HomePageTest.login(TC02_HomePageTest.java:35)] - Page directed to Base URL
+[INFO] 09-08-2025 12:15:14 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:49)] - null
+[INFO] 09-08-2025 12:15:15 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:51)] - Browser driver is opened
+[INFO] 09-08-2025 12:15:16 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:53)] - Page directed to Base URL
+[INFO] 09-08-2025 12:15:20 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:56)] - Page directed to Home URL
+[INFO] 09-08-2025 12:15:20 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case addRandomProductsToCartTC started
+[INFO] 09-08-2025 12:15:20 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 1
+[INFO] 09-08-2025 12:15:20 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 3
+[INFO] 09-08-2025 12:15:20 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 4
+[INFO] 09-08-2025 12:15:20 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 5
+[INFO] 09-08-2025 12:15:20 [main] [Pages.P02_HomePage.getNumberOfCurrentCartIcon(P02_HomePage.java:47)] - Number of products on cart are: 4
+[INFO] 09-08-2025 12:15:20 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:58)] - Number of selected products are: 4
+[INFO] 09-08-2025 12:15:20 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case addRandomProductsToCartTC passed
+[INFO] 09-08-2025 12:15:20 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:49)] - null
+[INFO] 09-08-2025 12:15:22 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:51)] - Browser driver is opened
+[INFO] 09-08-2025 12:15:22 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:53)] - Page directed to Base URL
+[INFO] 09-08-2025 12:15:25 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:56)] - Page directed to Home URL
+[INFO] 09-08-2025 12:15:25 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case clickOnCartTC started
+[INFO] 09-08-2025 12:15:26 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case clickOnCartTC passed
+[INFO] 09-08-2025 12:15:26 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:49)] - null
+[INFO] 09-08-2025 12:15:27 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:51)] - Browser driver is opened
+[INFO] 09-08-2025 12:15:29 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:53)] - Page directed to Base URL
+[INFO] 09-08-2025 12:15:38 [main] [Tests.TC02_HomePageTest.setup(TC02_HomePageTest.java:56)] - Page directed to Home URL
+[INFO] 09-08-2025 12:15:38 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case verifyNumberOfSelectedProductsTC started
+[INFO] 09-08-2025 12:15:38 [main] [Pages.P02_HomePage.addProductsToCart(P02_HomePage.java:36)] - Number of all products are: 6
+[INFO] 09-08-2025 12:15:39 [main] [Pages.P02_HomePage.getNumberOfCurrentCartIcon(P02_HomePage.java:47)] - Number of products on cart are: 6
+[INFO] 09-08-2025 12:15:39 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:58)] - Number of selected products are: 6
+[INFO] 09-08-2025 12:15:39 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case verifyNumberOfSelectedProductsTC passed
+[INFO] 09-08-2025 12:15:39 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:31)] - null
+[INFO] 09-08-2025 12:15:40 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:33)] - Browser driver is opened
+[INFO] 09-08-2025 12:15:41 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:35)] - Page directed to Base URL
+[INFO] 09-08-2025 12:15:41 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case comparePricesTC started
+[INFO] 09-08-2025 12:15:45 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 4
+[INFO] 09-08-2025 12:15:45 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 6
+[INFO] 09-08-2025 12:15:46 [main] [Pages.P02_HomePage.getTotalPriceOfSelectedProducts(P02_HomePage.java:96)] - Total price = 65.98
+[INFO] 09-08-2025 12:15:46 [main] [Pages.P03_CartPage.getTotalPriceInCart(P03_CartPage.java:41)] - Total price = 65.98
+[INFO] 09-08-2025 12:15:46 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case comparePricesTC passed
+[INFO] 09-08-2025 12:15:46 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:34)] - null
+[INFO] 09-08-2025 12:15:47 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:36)] - Browser driver is opened
+[INFO] 09-08-2025 12:15:48 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:38)] - Page directed to Base URL
+[INFO] 09-08-2025 12:15:48 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepOneTC started
+[INFO] 09-08-2025 12:15:51 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 2
+[INFO] 09-08-2025 12:15:51 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 4
+[INFO] 09-08-2025 12:15:51 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 5
+[INFO] 09-08-2025 12:15:52 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 6
+[INFO] 09-08-2025 12:15:53 [main] [Tests.TC04_CheckoutTest.checkoutStepOneTC(TC04_CheckoutTest.java:53)] - fTest - 2025-08-09-12-14-58 PM lTest - 2025-08-09-12-14-58 PM  49653
+[INFO] 09-08-2025 12:15:53 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case checkoutStepOneTC passed
+[INFO] 09-08-2025 12:15:53 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:35)] - null
+[INFO] 09-08-2025 12:16:34 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case setup failed
+[ERROR] 09-08-2025 12:16:35 [main] [Utilities.Utility.takeScreenshot(Utility.java:93)] - Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null
+[INFO] 09-08-2025 12:16:35 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepTwoTC started
+[INFO] 09-08-2025 12:16:35 [main] [Listeners.ITestResultListenerClass.onTestSkipped(ITestResultListenerClass.java:19)] - Test Case checkoutStepTwoTC skipped
+[INFO] 09-08-2025 12:16:35 [main] [Tests.TC06_CompleteTest.setup(TC06_CompleteTest.java:35)] - null
+[INFO] 09-08-2025 12:16:35 [main] [Tests.TC06_CompleteTest.setup(TC06_CompleteTest.java:37)] - Browser driver is opened
+[INFO] 09-08-2025 12:16:36 [main] [Tests.TC06_CompleteTest.setup(TC06_CompleteTest.java:39)] - Page directed to Base URL
+[INFO] 09-08-2025 12:16:36 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case completeOrderTC started
+[INFO] 09-08-2025 12:16:38 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 1
+[INFO] 09-08-2025 12:16:38 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 3
+[INFO] 09-08-2025 12:16:38 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 5
+[INFO] 09-08-2025 12:16:38 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 6
+[INFO] 09-08-2025 12:16:40 [main] [Tests.TC06_CompleteTest.completeOrderTC(TC06_CompleteTest.java:55)] - fTest - 2025-08-09-12-14-58 PM lTest - 2025-08-09-12-14-58 PM  23028
+[INFO] 09-08-2025 12:16:40 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case completeOrderTC passed

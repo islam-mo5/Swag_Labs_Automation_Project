@@ -19,10 +19,10 @@ public class DriverFactory {
     // 1-Set function
     public static void setupDriver(String browser) {
         switch (browser.toLowerCase()) {
-            case "chrome":
-                ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--start-maximized");
-                driverThreadLocal.set(new ChromeDriver(chromeOptions));
+            case "edge":
+                EdgeOptions edgeOptions = new EdgeOptions();
+                edgeOptions.addArguments("--start-maximized");
+                driverThreadLocal.set(new EdgeDriver(edgeOptions));
                 break;
 
             case "safari":
@@ -37,9 +37,9 @@ public class DriverFactory {
                 break;
 
             default:
-                EdgeOptions edgeOptions = new EdgeOptions();
-                edgeOptions.addArguments("--start-maximized");
-                driverThreadLocal.set(new EdgeDriver(edgeOptions));
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--start-maximized");
+                driverThreadLocal.set(new ChromeDriver(chromeOptions));
                 break;
         }
     }

@@ -33,6 +33,8 @@ public class TC04_CheckoutTest {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : DataUtilities.getPropertyValue("environment", "BROWSER");
         LogsUtilities.info(System.getProperty("browser"));
         setupDriver(browser);
+        LogsUtilities.info("Browser driver is opened");
+        getDriver().get(DataUtilities.getPropertyValue("environment", "BASE_URL"));
         LogsUtilities.info("Page directed to Base URL");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }

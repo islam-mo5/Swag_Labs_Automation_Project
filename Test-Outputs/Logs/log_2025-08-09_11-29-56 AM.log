@@ -1,0 +1,5 @@
+[INFO] 09-08-2025 11:29:57 [main] [Tests.TC01_LoginPage.setup(TC01_LoginPage.java:30)] - null
+[INFO] 09-08-2025 11:30:01 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case setup failed
+[ERROR] 09-08-2025 11:30:01 [main] [Utilities.Utility.takeScreenshot(Utility.java:93)] - Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null
+[INFO] 09-08-2025 11:30:01 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case validLoginTC started
+[INFO] 09-08-2025 11:30:01 [main] [Listeners.ITestResultListenerClass.onTestSkipped(ITestResultListenerClass.java:19)] - Test Case validLoginTC skipped

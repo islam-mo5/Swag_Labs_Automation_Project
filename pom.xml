@@ -12,7 +12,7 @@
         <maven.compiler.source>24</maven.compiler.source>
         <maven.compiler.target>24</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <seleniumVersion>4.33.0</seleniumVersion>
+        <seleniumVersion>4.34.0</seleniumVersion>
         <testNGVersion>7.11.0</testNGVersion>
         <restAssured>5.5.5</restAssured>
         <allure.version>2.27.0</allure.version>
@@ -41,7 +41,12 @@
                 <executions>
                     <execution>
                         <phase>test</phase>
-                       
+                        <goals>
+                            <goal>
+                                serve
+                            </goal>
+                        </goals>
+
                     </execution>
                 </executions>
                 <configuration>
