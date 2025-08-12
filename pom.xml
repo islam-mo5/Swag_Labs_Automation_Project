@@ -24,6 +24,16 @@
         <suite.overview>Test Runner/OverviewSuite.xml</suite.overview>
         <suite.complete>Test Runner/CompleteSuite.xml</suite.complete>
         <suite.regression>Test Runner/RegressionSuite.xml</suite.regression>
+        <suite.E2E01_SuccessfulPurchaseTest>Test Runner/E2E01_SuccessfulPurchaseTest.xml
+        </suite.E2E01_SuccessfulPurchaseTest>
+        <suite.E2E02_InvalidLoginTest>Test Runner/E2E02_InvalidLoginTest.xml</suite.E2E02_InvalidLoginTest>
+        <suite.E2E03_PurchaseWithCartModificationTest>Test Runner/E2E03_PurchaseWithCartModificationTest.xml
+        </suite.E2E03_PurchaseWithCartModificationTest>
+        <suite.E2E04_ProductFilteringAndPurchaseTest>Test Runner/E2E04_ProductFilteringAndPurchaseTest.xml
+        </suite.E2E04_ProductFilteringAndPurchaseTest>
+        <suite.E2E05_CheckoutMissingInfoTest>Test Runner/E2E05_CheckoutMissingInfoTest.xml
+        </suite.E2E05_CheckoutMissingInfoTest>
+        <suite.E2E_All>Test Runner/E2E_All.xml</suite.E2E_All>
         <allureMaven>2.12.0</allureMaven>
         <allureApi.version>2.27.0</allureApi.version>
     </properties>
@@ -103,7 +113,7 @@
         </profile>
 
         <profile>
-            <id>E2EProfile</id>
+            <id>E2E_All</id>
             <build>
                 <plugins>
                     <plugin>
@@ -120,14 +130,148 @@
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>
-                                    ${suite.complete}
+                                    ${suite.E2E_All}
                                 </suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
                 </plugins>
             </build>
+        </profile>
 
+        <profile>
+            <id>E2E01_SuccessfulPurchaseTest</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>io.qameta.allure</groupId>
+                        <artifactId>allure-maven</artifactId>
+                        <configuration>
+                            <reportVersion>${allure.version}</reportVersion>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>
+                                    ${suite.E2E01_SuccessfulPurchaseTest}
+                                </suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>E2E02_InvalidLoginTest</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>io.qameta.allure</groupId>
+                        <artifactId>allure-maven</artifactId>
+                        <configuration>
+                            <reportVersion>${allure.version}</reportVersion>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>
+                                    ${suite.E2E02_InvalidLoginTest}
+                                </suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>E2E03_PurchaseWithCartModificationTest</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>io.qameta.allure</groupId>
+                        <artifactId>allure-maven</artifactId>
+                        <configuration>
+                            <reportVersion>${allure.version}</reportVersion>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>
+                                    ${suite.E2E03_PurchaseWithCartModificationTest}
+                                </suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>E2E04_ProductFilteringAndPurchaseTest</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>io.qameta.allure</groupId>
+                        <artifactId>allure-maven</artifactId>
+                        <configuration>
+                            <reportVersion>${allure.version}</reportVersion>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>
+                                    ${suite.E2E04_ProductFilteringAndPurchaseTest}
+                                </suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>E2E05_CheckoutMissingInfoTest</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>io.qameta.allure</groupId>
+                        <artifactId>allure-maven</artifactId>
+                        <configuration>
+                            <reportVersion>${allure.version}</reportVersion>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>
+                                    ${suite.E2E05_CheckoutMissingInfoTest}
+                                </suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
         </profile>
 
         <profile>

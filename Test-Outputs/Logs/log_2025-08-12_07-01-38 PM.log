@@ -1,0 +1,10 @@
+[INFO] 12-08-2025 19:01:38 [main] [E2E.E2E01_SuccessfulPurchaseTest.setup(E2E01_SuccessfulPurchaseTest.java:30)] - null
+[INFO] 12-08-2025 19:01:40 [main] [E2E.E2E01_SuccessfulPurchaseTest.setup(E2E01_SuccessfulPurchaseTest.java:32)] - Browser driver is opened
+[INFO] 12-08-2025 19:01:41 [main] [E2E.E2E01_SuccessfulPurchaseTest.setup(E2E01_SuccessfulPurchaseTest.java:34)] - Page directed to Base URL
+[INFO] 12-08-2025 19:01:41 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case E2E_SuccessfulPurchaseTest started
+[INFO] 12-08-2025 19:01:43 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 1
+[INFO] 12-08-2025 19:01:43 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 3
+[INFO] 12-08-2025 19:01:43 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 4
+[INFO] 12-08-2025 19:01:43 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 6
+[INFO] 12-08-2025 19:01:45 [main] [E2E.E2E01_SuccessfulPurchaseTest.E2E_SuccessfulPurchaseTest(E2E01_SuccessfulPurchaseTest.java:50)] - fTest - 2025-08-12-07-01-36 PM lTest - 2025-08-12-07-01-36 PM  65503
+[INFO] 12-08-2025 19:01:45 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case E2E_SuccessfulPurchaseTest passed

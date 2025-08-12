@@ -1,0 +1,2 @@
+[INFO] 12-08-2025 18:18:58 [main] [Pages.P05_OverviewPage.calculateTotalPrice(P05_OverviewPage.java:39)] - calculating SubTotal = 7.99 and Tax = 0.64 = 8.63
+[INFO] 12-08-2025 18:18:58 [main] [Pages.P05_OverviewPage.getTotal(P05_OverviewPage.java:30)] - Actual Total Price = 8.63

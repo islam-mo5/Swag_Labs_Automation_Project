@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E2E Suite">
+    <listeners>
+        <listener class-name="Listeners.IInvokedMethodListenerClass"/>
+        <listener class-name="Listeners.ITestResultListenerClass"/>
+    </listeners>
+    <test name="PurchaseWithCartModificationTest">
+        <classes>
+            <class name="E2E.E2E03_PurchaseWithCartModificationTest"/>
+        </classes>
+    </test>
+</suite>

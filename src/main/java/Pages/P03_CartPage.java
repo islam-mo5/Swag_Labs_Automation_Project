@@ -49,4 +49,7 @@ public class P03_CartPage {
     public boolean comparePrices(String price) {
         return getTotalPriceInCart().equals(price);
     }
+
+    public void removeProduct(int i) {
+    }
 }

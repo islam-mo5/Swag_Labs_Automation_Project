@@ -1,0 +1,10 @@
+[INFO] 12-08-2025 17:54:14 [main] [Tests.TC06_CompleteTest.setup(TC06_CompleteTest.java:35)] - null
+[INFO] 12-08-2025 17:54:16 [main] [Tests.TC06_CompleteTest.setup(TC06_CompleteTest.java:37)] - Browser driver is opened
+[INFO] 12-08-2025 17:54:17 [main] [Tests.TC06_CompleteTest.setup(TC06_CompleteTest.java:39)] - Page directed to Base URL
+[INFO] 12-08-2025 17:54:17 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case completeOrderTC started
+[INFO] 12-08-2025 17:54:19 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 3
+[INFO] 12-08-2025 17:54:20 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 4
+[INFO] 12-08-2025 17:54:20 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 5
+[INFO] 12-08-2025 17:54:20 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 6
+[INFO] 12-08-2025 17:54:22 [main] [Tests.TC06_CompleteTest.completeOrderTC(TC06_CompleteTest.java:55)] - fTest - 2025-08-12-05-54-13 PM lTest - 2025-08-12-05-54-13 PM  55966
+[INFO] 12-08-2025 17:54:22 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case completeOrderTC passed

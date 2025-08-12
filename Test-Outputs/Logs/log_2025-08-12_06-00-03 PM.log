@@ -1,0 +1,8 @@
+[INFO] 12-08-2025 18:00:03 [main] [E2E.E2E01_SuccessfulPurchaseTest.setup(E2E_SuccessfulPurchaseTest.java:30)] - null
+[INFO] 12-08-2025 18:00:05 [main] [E2E.E2E01_SuccessfulPurchaseTest.setup(E2E_SuccessfulPurchaseTest.java:32)] - Browser driver is opened
+[INFO] 12-08-2025 18:00:06 [main] [E2E.E2E01_SuccessfulPurchaseTest.setup(E2E_SuccessfulPurchaseTest.java:34)] - Page directed to Base URL
+[INFO] 12-08-2025 18:00:09 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 1
+[INFO] 12-08-2025 18:00:09 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 2
+[INFO] 12-08-2025 18:00:09 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 3
+[INFO] 12-08-2025 18:00:09 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:70)] - random Number = 6
+[INFO] 12-08-2025 18:00:10 [main] [E2E.E2E01_SuccessfulPurchaseTest.E2E_SuccessfulPurchaseTest(E2E_SuccessfulPurchaseTest.java:50)] - fTest - 2025-08-12-06-00-02 PM lTest - 2025-08-12-06-00-02 PM  77559
